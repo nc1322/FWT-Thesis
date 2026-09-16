@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free-folding wingtip (FWT) for aircraft load alleviation — Nick Chen</title>
+<meta name="description" content="Nick Chen’s MEng final-year project at Imperial College London on free-folding wingtips for aircraft load alleviation.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23222222'/%3E%3Ctext x='4' y='23' font-size='19' fill='white'%3ENC%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+<h1>Free-folding wingtip (FWT) for aircraft load alleviation</h1>
+<div class="metadata">
+<p>Nick (Yinuo) Chen</p>
+<p>Department of Aeronautics, Imperial College London</p>
+</div>
+<div class="project-images">
+<img src="aircraft-flight.png" alt="Flexible aircraft in flight" width="630" height="493">
+<img src="folding-wingtip-model.png" alt="Folding-wingtip model showing wing bending, torsion and rotation about a flared hinge" width="1350" height="754">
+</div>
+<section aria-labelledby="abstract-heading">
+<h2 id="abstract-heading">Abstract</h2>
+<p>This thesis investigates the nonlinear aeroelastic behaviour of the flexible HX-HALE aircraft equipped with flared folding wingtips. The vehicle response is analysed under discrete ‘1-cos’ gusts, continuous-sine gusts and uniform gusts. High-fidelity SHARPy simulations are first used to assess the effects of hinge flare angle and wingtip size on discrete-gust load alleviation. The results show that both parameters strongly influence the transient wing-root bending moment and folding-wingtip response. A wingtip length of approximately 0.5 m, corresponding to about 50% of the outermost span, reduces the maximum wing-root bending moment by around 40%, while larger wingtips can amplify the response because of increased span loading and stronger bending–flapping coupling. Early wingtip-release strategies are also briefly investigated and show conceptual promise for further load alleviation.</p>
+<p>The second major contribution is the development of a three-degree-of-freedom reduced-order model (ROM) based on simplified structural dynamics and quasi-steady aerodynamics. The model includes inner-wing bending, inner-wing torsion and wingtip folding motion, and captures the nonlinear effects introduced by the flared hinge axis at substantially lower computational cost than SHARPy. Verification against SHARPy results shows that the ROM captures the main trends and transient features of the coupled bending–flapping response. Rigid-body-motion effects, which are present in SHARPy but not directly included in the ROM, are also shown to explain a significant part of the discrepancy between the two models.</p>
+<p>The ROM is then used for broader disturbance and stability studies. Continuous-sine excitation identifies a dominant natural frequency of approximately 1.2 Hz, while increasing gust intensity produces nonlinear response-amplitude growth. Continuous uniform gusts reveal limit-cycle oscillations associated with a subcritical Hopf bifurcation and hysteresis. Finally, active feedback control using commanded flaps is shown to reduce loads and excessive wingtip motion, with the main-wing flap being more effective than the wingtip flap. Overall, the thesis demonstrates that selected folding-wingtip configurations can provide effective gust load alleviation and that a validated ROM can offer useful design insight at significantly reduced computational cost.</p>
+</section>
+<section aria-labelledby="downloads-heading">
+<h2 id="downloads-heading">Links</h2>
+<ul><li><a href="https://github.com/nc1322/FWT-Thesis/releases/download/thesis-2026/thesis.pdf" target="_blank" rel="noopener">Full thesis PDF</a> (29.4 MB, 56 pages) — <a href="https://github.com/nc1322/FWT-Thesis/releases/download/thesis-2026/thesis.pdf" download="Nick-Chen-FWT-Thesis.pdf">Download PDF</a></li></ul>
+</section>
+</main>
+</body>
+</html>
